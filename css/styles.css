@@ -1,0 +1,70 @@
+body{
+    font-size: 20px;
+}
+nav {
+    padding: 1px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navLogo {
+    width: 50px;
+    height: 50px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    margin: 1px 10px;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(238, 16, 16, 0.5), rgb(61, 3, 3, 0.5)), url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section p{
+    padding: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.article header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.article .percent{
+    width: 100%;
+}
+
+section h2{
+    text-align: center;
+}
+.bright img{
+    width: 100px;
+    height: 100px;
+}
+
+.bright{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+.bright{
+    background-image: linear-gradient(rgb(224, 52, 17), rgb(61, 3, 3, 0.5))
+}
